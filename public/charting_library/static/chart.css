@@ -1,0 +1,40 @@
+body {
+  --dark-2: #0a2133;
+}
+.header-chart-panel .button.disabled,
+.header-chart-panel .button,
+.favored-list-container span {
+  color: #bbb;
+  background: transparent;
+  border-color: var(--dark-2);
+}
+.header-chart-panel .button.disabled:hover,
+.header-chart-panel .button:hover,
+.feature-no-touch .favored-list-container span:hover {
+  background: transparent;
+  color: #bbb;
+}
+.header-chart-panel .button.disabled.active,
+.header-chart-panel .button.active,
+.favored-list-container span.active,
+.favored-list-container span.selected,
+.feature-no-touch .favored-list-container span:active,
+.feature-touch .favored-list-container span:active {
+  background: transparent;
+  color: #3bb3e4;
+}
+.tv-close-panel {
+  background-color: transparent;
+}
+.chart-page {
+  background: transparent;
+}
+.chart-page .chart-container {
+  border: 1px solid;
+  border-color: var(--dark-2);
+  background: transparent;
+}
+.tv-close-panel.bottom,
+.tv-close-panel.top {
+  border-color: var(--dark-2);
+}

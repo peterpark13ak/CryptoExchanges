@@ -1,0 +1,23 @@
+@import url('https://rsms.me/inter/inter.css');
+@import url('https://rsms.me/inter/inter-ui.css');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+html {
+    font-family: 'Work Sans', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+    html {
+        font-family: 'Work Sans', sans-serif;
+    }
+}
+
+body,
+html,
+#root {
+    height: 100vh;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
